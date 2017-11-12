@@ -1,0 +1,82 @@
+.mylogo {
+    border: dashed 2px #000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+.mylogo:hover {
+    border: solid 5px #a0a0a0;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+header.entry-header {
+    margin-top: 50px;
+}
+
+ul.footer-credit {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0;
+}
+@media (max-width: 768px) {
+  ul.footer-credit {
+      display:block;
+  }
+}
+
+.footer-credit li {
+    margin-right: 10px;
+}
+
+.footer-credit li:after {
+    content: "|";
+    padding-left: 10px;
+}
+
+.full-width {
+    width: 100%;
+    margin: 15px 15px 0;
+}
+
+.progress {
+    margin-bottom: 10px;
+}
+
+.progress:hover .progress-bar {
+    background: red;
+}
+
+.progress-bar {
+    transition: all ease 0.5s;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+p.center {
+    text-align: center;
+}
+
+.col50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .col50 {
+        width: 100%;
+        float: none;
+    }
+}
+
+.entry-content {
+    display: table;
+    width: 100%;
+    clear: both;
+}
